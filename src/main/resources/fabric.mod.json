@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "zxcmod",
+  "version": "${version}",
+  "name": "zxcmod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/felexfox/zxcmod.git"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/zxcmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.flx.zxcmod.client.ZxcmodClient"
+    ],
+    "main": [
+      "me.flx.zxcmod.Zxcmod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
